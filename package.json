@@ -1,0 +1,36 @@
+{
+  "name": "ecommerse-using-mern",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "AlanSaji",
+  "license": "ISC",
+  "description": "ecommerse rest api",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "braintree": "^3.24.0",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "react-bootstrap": "^2.10.4",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.25.1",
+    "slugify": "^1.6.6"
+  }
+}
