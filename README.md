@@ -90,3 +90,4 @@ Database: [MongoDB Atlas](https://www.mongodb.com/)
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-07-31 174734](https://github.com/user-attachments/assets/d69db0cd-2c2a-40e4-9149-fb293f3c13c2)
